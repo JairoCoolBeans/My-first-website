@@ -115,3 +115,80 @@ body {
   padding: 0; /* Removes default body padding */
   /* height: 100vh; /* Use this for full viewport height */ */
 }
+
+
+
+
+
+
+
+<section class="about">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Howdy!, My name is Jairo Mata, and I like the color blue, drawing, playing video games, designing custom cassette tape J cards, arts & crafts, I'm quite fond of the video game character Sonic The Hedgehog, I like owls, hedgehog's, mice, frogs, lizards, and especially catching lizards when I see one, that is all for now, thanks for reading!
+    </p>
+  
+  </div>
+
+  <div class="about-image">
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/43d6dc99-15db-4748-92c3-05aadac6eae8/dk2it16-9faca3cb-b57a-4f38-8f98-0cae68b0a3e1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80M2Q2ZGM5OS0xNWRiLTQ3NDgtOTJjMy0wNWFhZGFjNmVhZTgvZGsyaXQxNi05ZmFjYTNjYi1iNTdhLTRmMzgtOGY5OC0wY2FlNjhiMGEzZTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qQubBftfOVpK_M29QwhqYbdi3VTYDR6eM3dkUdV_ldk" alt="Profile Image">
+  </div>
+</section>
+
+
+
+
+/* Basic Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* FLEXBOX LAYOUT */
+.about {
+  display: flex;              /* Turns section into flex container */
+  align-items: center;        /* Vertically center items */
+  justify-content: center;    /* Center horizontally */
+  gap: 40px;                  /* Space between text and image */
+  padding: 60px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Make both sides equal width */
+.about-text,
+.about-image {
+  flex: 1;
+}
+
+/* Responsive Image */
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;   /* Stack vertically */
+    text-align: center;
+  }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1000px;
+  margin: auto;
+
+  background-color: skyblue;  /* ← Change added here */
+  border-radius: 10px;
+}
