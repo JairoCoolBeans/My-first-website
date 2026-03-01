@@ -1,3 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+<header class="page-header">
+  Jairo Mata, 3/5/26, Web Page Design, second semester 2026, San Jacinto
+</header>
+
+  
+</head>
+<body>
+
+
+
+/* Remove default spacing */
+body {
+  margin: 0;
+}
+
+/* Full-width header */
+.page-header {
+  background-color: lightgreen;
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* Centers the box */
+}
+
+/* green header */
+.header-box {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  border: 2px solid black;
+  padding: 8px 15px;
+  background-color: white;
+}
+
+
+
+
+
+
 index.html
 
 # My-first-website
