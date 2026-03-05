@@ -1,1 +1,54 @@
+/* Basic Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* FLEXBOX LAYOUT */
+.about {
+  display: flex;              /* Turns section into flex container */
+  align-items: center;        /* Vertically center items */
+  justify-content: center;    /* Center horizontally */
+  gap: 40px;                  /* Space between text and image */
+  padding: 60px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Make both sides equal width */
+.about-text,
+.about-image {
+  flex: 1;
+}
+
+/* Responsive Image */
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;   /* Stack vertically */
+    text-align: center;
+  }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1000px;
+  margin: auto;
+
+  background-color: skyblue;  /* ← Change added here */
+  border-radius: 10px;
+}
 
